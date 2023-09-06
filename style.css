@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Pacifico&family=Roboto&display=swap');
+
+
+
+.main-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    height: 45em;
+}
+.quote{
+    background: #EADBC8;
+    color: black;
+    border-radius: 10px ;
+    border: 1px solid ;
+    border-color: beige;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+
+}
+.tdl{
+    text-align: center;
+    color: beige;
+    text-shadow: 3px 3px #000000;
+
+}
+.todo{
+    margin-top: 9%;
+    background:#DAC0A3;
+    border-radius: 15px;
+    width: 70%;
+    align-self: center;
+
+}
+
+.td{
+    background-color: #DAC0A3;
+    color: aliceblue;
+    height: 30px;
+    
+}
+
+.addtodo{
+    margin: 10px;
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color:#EADBC8;
+    font-size: 15px;
+}
+.addtodo1{
+    background-color:#EADBC8;
+    margin: 10px;
+    height: auto;
+    width: 38%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.input1{
+    display: flex;
+    flex-direction: row;
+
+}
+.button{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    background: beige;
+    border-radius: 10%;
+    
+}
+.btn{
+    font-size: 20px;
+    background:black;
+    border: 0;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.todo_body{
+    background-color:#EADBC8;
+    border: 1px solid #EADBC8;
+}
+.alert-msg{
+    width: 80%;
+    transition: all 0.3s ease;
+    transform: scale(.9);
+    margin-left: 10%;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: large;
+}
+.alert-msg.show{
+    display: block;
+    transform: scale(1);
+    background-color: white;
+   
+
+}
+.alert-msg.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+.dropdown-btn{
+    font-size: large;
+    border-radius: 10%;
+    margin-top: 20%;
+}
+
+
